@@ -6,8 +6,15 @@ header .navbar .nav-link.active {
 header .navbar-nav>.nav-item {
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 0.8rem;
-    margin: 0 1rem;
+    font-size: 0.7rem;
+    margin: 0 0.3rem;
+
+}
+
+.navbar {
+    margin-top: -73px;
+    position: absolute;
+
 }
 
 .v-sep {
@@ -20,7 +27,7 @@ header .navbar-nav>.nav-item {
     position: absolute;
     left: 0;
     top: calc(50% - 7px);
-    height: 14px;
+    height: 15px;
     border-left: 1px solid rgb(85, 84, 84);
 }
 
@@ -29,10 +36,17 @@ header .navbar-nav>.nav-item {
     overflow: hidden;
 }
 
+.carousel-item p,
+h5 {
+    margin-top: 150px;
+
+}
+
 #hero .carousel-item img {
     object-fit: cover;
     height: 100%;
     width: 100%;
+    /* opacity: 0.8; */
 }
 
 .carousel-item h5 {
@@ -101,16 +115,14 @@ div.sec2-modern2 p {
 }
 
 
-
-
-
-
-
-
-
 .sec1 {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 80px;
+}
+
+.sec1 p {
+    color: #666666;
+
 }
 
 .sec11 {
@@ -118,7 +130,7 @@ div.sec2-modern2 p {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 80px;
     margin-bottom: 50px;
 }
 
@@ -147,15 +159,8 @@ div.sec2-modern2 p {
     margin-bottom: 30px;
 }
 
-
-
-
-
-
-
 .sec4 {
     display: flex;
-    /* text-align: center; */
     padding-left: 0;
     padding-right: 0;
     font-size: 12px;
@@ -170,8 +175,6 @@ div.sec2-modern2 p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
-    /* text-align: center; */
     padding: 40px;
     line-height: 20px;
     font-weight: 400;
@@ -242,22 +245,28 @@ div.sec2-modern2 p {
     padding: 9px;
 }
 
-.sec6 img {
-    margin-right: 60px;
-    padding-right: 30px;
+.sec6 .work-02 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 15rem;
+
+
 }
 
 .sec6 {
-    padding: 70px;
     display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
 }
 
 .sec6 .sec6-1 {
-    margin: 20px;
-
+    margin-left: 10rem;
+    margin-right: -9rem;
     font-weight: 400;
     flex-direction: row;
-    padding: 40px;
     line-height: 20px;
     font-weight: 400;
 }
@@ -265,7 +274,7 @@ div.sec2-modern2 p {
 .sec6 .divhr {
     height: 1px;
     width: 67%;
-    background-color: #22212168;
+    background-color: #2221215d;
     margin-right: 610px;
     margin-bottom: 15px;
     margin-top: 15px;
@@ -273,20 +282,21 @@ div.sec2-modern2 p {
 
 .sec6 .sec6-1 h1 {
     /* padding-left: 60px; */
-    margin-right: 20px;
+    margin-right: 7rem;
     margin-bottom: 30px;
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 36px;
+    font-weight: 700;
 }
 
 .sec6 .sec6-1 p {
-    color: #0000007a;
+    color: #00000098;
     font-size: 15px;
 }
 
 .sec6 .sec6-1 .btn {
     margin-top: 20px;
     background-color: #000000;
+    font-size: 17px;
 }
 
 
@@ -330,36 +340,366 @@ div.sec2-modern2 p {
     margin-top: 10px;
 }
 
-.home-wide {
+.sec8 {
     display: flex;
     justify-content: center;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+
 }
 
-.sec8 .homepage {
-    display: flex;
-    width: 20rem;
-    height: 18rem;
-    padding: 60px;
+.sec8 h3 {
+    font-weight: 600;
+    font-size: 17px;
+}
 
+.sec8 p {
+    color: #0000006b;
+    margin-right: 6rem;
+}
+
+hr {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+#ico8 {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.imag8 {
+    display: flex;
+    width: 21.5rem;
+    height: 21.5rem;
+    object-fit: cover;
 }
 
 .wide {
-    padding: 60px;
+    padding-top: 18px;
+    padding-left: 13rem;
+    padding-right: 0.5rem;
 
 }
 
-.sec8 .wide h3 {
+.wide p {
+    color: #6f6f6f;
+    font-size: 15px;
     font-weight: 600;
+
 }
 
-.sec8 .wide p {
-    color: #121212a7;
+.wide h3 {
+    font-weight: 600;
+    font-size: 35px;
+    padding-right: 2rem;
+    margin-bottom: 30px;
+
 }
 
 .wide button {
     background-color: #000000d6;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 20px;
 }
 
-.wide hr {
-    margin-top: 50px;
+.sec9 {
+    background-image: url('images2/homepage-9-parallax-img5.jpg');
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+
+}
+
+.sec9 .imag15 {
+    width: 31rem;
+    height: 31rem;
+    object-fit: cover;
+    display: flex;
+    margin-left: 19px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.sec9 .unique {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 18rem;
+    color: rgb(136, 135, 135);
+
+    padding-top: 20px;
+    padding-right: 10rem;
+
+}
+
+.sec9 h1 {
+    font-weight: 600;
+    font-size: 45px;
+    /* padding-right: 2rem; */
+    margin-bottom: 30px;
+    color: #fff;
+
+}
+
+.sec9 p {
+    font-size: 14px;
+}
+
+.sec9 .hr2 {
+    background-color: #9b9b9c;
+    width: 550px;
+    height: 0.8px;
+    margin-left: 0px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.sec9 .btn {
+    color: #000000;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+
+
+.sec10 {
+    background-color: #f5f5f5;
+    object-fit: cover;
+    display: flex;
+}
+
+.sec10 .create {
+    margin: 100px;
+    width: 50%;
+    height: 50%;
+}
+
+.sec10 .create p {
+    color: #626161e9;
+    font-size: 15px;
+    padding-right: 80px;
+
+}
+
+.sec10 .create p.text-danger {
+    font-size: 20px;
+
+}
+
+.sec10 .create h2 {
+    font-weight: 600;
+    font-size: 45px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.sec10 .create .btn {
+    background-color: #000000d6;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.sec10 .bg11 {
+    width: 50%;
+    height: 38rem;
+    display: flex;
+    object-fit: cover;
+
+}
+
+#num11 {
+    justify-content: center;
+    margin: 90px;
+}
+
+.sec12 {
+    margin: 30px 100px 30px 100px;
+
+}
+
+.sec12 h3 {
+    font-weight: 700;
+
+}
+
+.sec12 p {
+    color: #4a4a4a8a;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.sec13 {
+    text-align: center;
+    background-image: url("images2/homepage-9-parallax-img5.jpg");
+    object-fit: cover;
+}
+
+.sec13 img {
+    margin-top: 7rem;
+    margin-bottom: 30px;
+}
+
+.sec13 h2 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+    margin-left: 18rem;
+    margin-right: 18rem;
+
+}
+
+.sec13 p {
+    color: #9c9b9b;
+    margin-left: 22rem;
+    margin-right: 22rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sec13 .btn {
+    background-color: #fff;
+
+}
+
+
+.sec13 h6 {
+    padding-bottom: 7rem;
+    padding-top: 20px;
+}
+
+.sec14 {
+    justify-content: center;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+
+}
+
+.hrdi {
+    justify-content: center;
+    width: 600px;
+    height: 1px;
+}
+
+.word {
+    text-align: center;
+}
+
+.word p {
+    color: #3d3d3deb;
+    font-size: 13px;
+    font-weight: 600;
+    padding-top: 60px;
+}
+
+.word h4 {
+    font-weight: 700;
+    font-size: 29px;
+
+}
+
+.word .hrdi {
+    background-color: #ff124f;
+    width: 100px;
+    height: 1px;
+    margin-left: 710px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.sec15 {
+    display: flex;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.div15 {
+    background-color: rgba(224, 224, 221, 0.911);
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+}
+
+.sec15 .avtar15 {
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    border: 1px solid #cecccc;
+
+}
+
+.sec15 .avtar15 img {
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+}
+
+.sec15 .avtar15 h1 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.sec15 .avtar15 p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #666666;
+
+}
+
+.sec16 {
+    display: flex;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.div16 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+}
+
+.sec16 .avtar16 {
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+}
+
+.sec16 .avtar16 img {
+
+    width: 210px;
+    height: 180px;
+    border-bottom: 1px solid #1b1a1a;
+    object-fit: cover;
+}
+
+.sec16 .avtar16 h1 {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.sec16 .avtar16 p {
+    font-size: 12px;
+    font-weight: 600;
+    color: #666666;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
